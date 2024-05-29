@@ -6,7 +6,7 @@ Features:
    1. Autonomous Navigation: The robot uses sensors to detect walls and paths, allowing it to navigate through mazes without human intervention.
    2. Arduino-based: Powered by an Arduino microcontroller, ensuring easy programming and hardware interfacing.
    3. Sensor Integration: Utilizes infrared (IR) or ultrasonic sensors for obstacle detection and pathfinding.
-   4. Algorithm Implementation: Implements maze-solving algorithms like Depth-First Search (DFS), Breadth-First Search (BFS), or Wall-Following.
+   4. Algorithm Implementation: Implements maze-solving algorithm: Line-Following algorithm.
    5. Customizable and Expandable: Modular code and hardware design allow for easy customization and expansion.
 
 Hardware Requirements:
@@ -30,7 +30,7 @@ Maze Mapping Software: (Optional) Software to visualize the maze and the robot's
 
 Algorithms:
 The robot can be programmed to use various maze-solving algorithms. The provided code includes implementations for:
-   1. Wall-Following: A simple heuristic where the robot follows one wall (left or right) to find the exit.
+   1. Line/Wall-Following: A simple heuristic where the robot follows one wall (left or right) to find the exit.
    2. Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.
    3. Breadth-First Search (BFS): Explores all nodes at the present depth level before moving on to nodes at the next depth level.
 
