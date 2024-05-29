@@ -29,10 +29,10 @@ Maze Mapping Software: (Optional) Software to visualize the maze and the robot's
    5. Run the Robot: Place the robot at the maze's starting point and observe as it navigates towards the exit.
 
 Algorithms:
-   The robot can be programmed to use various maze-solving algorithms. The provided code includes implementations for:
-     1. Wall-Following: A simple heuristic where the robot follows one wall (left or right) to find the exit.
-     2. Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.
-     3. Breadth-First Search (BFS): Explores all nodes at the present depth level before moving on to nodes at the next depth level.
+The robot can be programmed to use various maze-solving algorithms. The provided code includes implementations for:
+   1. Wall-Following: A simple heuristic where the robot follows one wall (left or right) to find the exit.
+   2. Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.
+   3. Breadth-First Search (BFS): Explores all nodes at the present depth level before moving on to nodes at the next depth level.
 
 Customization:
 You can easily customize the robot by modifying the Arduino code or adding additional sensors and actuators. Experiment with different maze-solving algorithms or sensor configurations to enhance your robot's performance.
